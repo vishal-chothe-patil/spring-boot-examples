@@ -52,6 +52,9 @@ The `spring-boot-rest-api` project demonstrates how to build a basic RESTful API
 - **UserController**:  
     - Handles HTTP POST requests at `/api/users/addUser`.
     - Accepts a JSON `User` object and responds with a success message.
+    - Uses `ResponseEntity` to return HTTP status codes (e.g., `201 Created`, `400 Bad Request`) and custom response messages.
+    - Maintains an in-memory list of users (`List<User>`) to simulate storage.
+
 - **Model Class (`User`)**:  
     - Represents a simple Java object containing fields like `id`, `name`, `email`, and `mobile`.
 - **Postman Testing**:  
@@ -74,6 +77,7 @@ The `spring-boot-rest-api` project demonstrates how to build a basic RESTful API
 - **Spring Boot Features Used**:
     - `@SpringBootApplication` for application configuration.
     - `@RestController`, `@PostMapping`, and `@RequestBody` for building REST APIs.
+    - `ResponseEntity` for wrapping response data and providing status codes.
     - Embedded Tomcat server (runs on port 8080 by default).
 
 ---
