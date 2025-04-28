@@ -1,4 +1,4 @@
-# 📚 Library Management System
+# Library Management System 📚
 
 The `library-management-system` project is a Spring Boot application demonstrating library management features, including:
 
@@ -16,7 +16,7 @@ The `library-management-system` project is a Spring Boot application demonstrati
 
 ---
 
-## 🛠 Spring Boot Features Used
+## Spring Boot Features Used 🛠
 
 - `@SpringBootApplication` for application configuration.
 - `@RestController`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@GetMapping` for building REST APIs.
@@ -26,7 +26,7 @@ The `library-management-system` project is a Spring Boot application demonstrati
 
 ---
 
-## 🚀 Project Structure
+## Project Structure 🚀
 
 ```bash
 library-management-system/
@@ -66,7 +66,7 @@ library-management-system/
 
 ---
 
-## 📜 REST API Endpoints
+## REST API Endpoints 📜
 
 ### Admin Endpoints:
 - `POST /api/admins/register` → Registers a new admin.
@@ -98,7 +98,7 @@ library-management-system/
 
 ---
 
-## 💻 How to Run the Project
+## How to Run the Project 💻
 
 1. **Clone the repository** to your local machine:
 
@@ -111,10 +111,9 @@ library-management-system/
 
 ---
 
-
 ## **Contributing** 💡
 
-We welcome contributions to the **spring-core-examples**! Here's how you can contribute:
+We welcome contributions to you! Here's how you can contribute:
 
 1. Fork the repository and create a new branch for your feature or bug fix.
 2. Implement your changes and commit them with clear messages.
@@ -133,6 +132,3 @@ See the [LICENSE](https://github.com/thevishalchothe) file for more information.
 ---
 
 ## **Thank You and Best Regards!** 🙏🎉
-
-
-
