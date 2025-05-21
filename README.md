@@ -13,7 +13,8 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - library-management-system  
 - spring-boot-runners  
 - spring-boot-filters  
-- spring-boot-interceptor
+- spring-boot-interceptor  
+- spring-boot-scheduler
 
 ---
 
@@ -27,5 +28,6 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - [spring-boot-runners](https://github.com/thevishalchothe/spring-boot-examples/tree/2ea82f034332b6419ce2417ce0939a7a1c49b7b2/spring-boot-runners)
 - [spring-boot-filters](https://github.com/thevishalchothe/spring-boot-examples/tree/923db60262cbd5707eaa482f6f0576909e30553d/spring-boot-filters)
 - [spring-boot-interceptor](https://github.com/thevishalchothe/spring-boot-examples/tree/45274202659863a45729f523d28928668a2318a6/spring-boot-interceptor)
+- [spring-boot-scheduler](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
 
 ---
