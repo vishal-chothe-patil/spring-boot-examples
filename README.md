@@ -1,6 +1,6 @@
 # spring-boot-examples ⚙️📊
 
-This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as Auto-Configuration, Starter Dependencies (Web, DevTools), Embedded Servers (Tomcat), RESTful APIs, Profiles for environment-specific configs, Application Runners, Filter-based request handling, and Logging with SLF4J — all illustrated through practical projects like REST APIs, Logging, Profile management, Library systems, Servlet Filters, and Interceptors.
+This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as Auto-Configuration, Starter Dependencies (Web, DevTools), Embedded Servers (Tomcat), RESTful APIs, Profiles for environment-specific configs, Application Runners, Filter-based request handling, Logging with SLF4J, and Actuator endpoints — all illustrated through practical projects like REST APIs, Logging, Profile management, Library systems, Servlet Filters, Interceptors, and Task Scheduling.
 
 ---
 
@@ -14,7 +14,8 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - spring-boot-runners  
 - spring-boot-filters  
 - spring-boot-interceptor  
-- spring-boot-scheduler
+- spring-boot-scheduler  
+- spring-boot-actuator
 
 ---
 
@@ -29,5 +30,6 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - [spring-boot-filters](https://github.com/thevishalchothe/spring-boot-examples/tree/923db60262cbd5707eaa482f6f0576909e30553d/spring-boot-filters)
 - [spring-boot-interceptor](https://github.com/thevishalchothe/spring-boot-examples/tree/45274202659863a45729f523d28928668a2318a6/spring-boot-interceptor)
 - [spring-boot-scheduler](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
+- [spring-boot-actuator](https://github.com/thevishalchothe/spring-boot-examples/tree/82f97912e0981efcefd04a363c0bfb76ad3d7f18/spring-boot-actuator)
 
 ---
