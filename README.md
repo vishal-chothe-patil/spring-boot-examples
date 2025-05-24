@@ -30,3 +30,15 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **JDBC** 📡: For direct database interaction where needed.
 - **MySQL** 🗄️: Relational database to persist application data.
 - **Maven** 🧰: Dependency management and build automation tool.
+
+
+---
+
+### **Prerequisites** 🛠️
+
+Before you begin, make sure the following are installed:
+
+- **Java JDK 21 or later**: Download from [Oracle](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html) or [OpenJDK](https://jdk.java.net/21/).
+- **IntelliJ IDEA for Enterprise Java**: Download from [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/)
+- **MySQL Database**: Install from [MySQL Community](https://dev.mysql.com/downloads/installer/).
+- **Maven**: [Install Maven](https://maven.apache.org/install.html) if not bundled with your IDE.
