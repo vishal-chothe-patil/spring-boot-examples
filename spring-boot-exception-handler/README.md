@@ -90,4 +90,21 @@ Along with:
 
   -  Consistent format across errors
 
+---
+
+###  Summary flow: 
+  -  Controller calls Service →
+
+  -  Service calls Repository →
+
+  -  Repository returns empty `Optional` →
+
+  -  Service throws `CustomerNotFoundException` →
+
+  -  Exception propagates to Global Exception Handler →
+ 
+  -  @ControllerAdvice catches it →
+
+  -  Handler returns formatted error response to client.
+
 
