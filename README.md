@@ -1,6 +1,6 @@
 # spring-boot-examples ⚙️📊
 
-This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as auto-configuration, starter dependencies, embedded servers, REST APIs, profiles, application runners, servlet filters, logging, Actuator endpoints, and Spring Data JPA — all implemented through practical, hands-on projects.
+This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as Auto-Configuration, Starter Dependencies (Web, DevTools), Embedded Servers (Tomcat), RESTful APIs, Profiles for environment-specific configs, Application Runners, Filter-based request handling, Logging with SLF4J, Actuator endpoints, and Spring Data JPA — all illustrated through practical projects like REST APIs, Logging, Profile management, Library systems, Servlet Filters, Interceptors, Task Scheduling, Exception Handling, and Data Persistence.
 
 ---
 
@@ -17,16 +17,16 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **spring-boot-scheduler** 🔗 [spring-boot-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
 - **spring-boot-actuator** 🔗 [spring-boot-actuator example link](https://github.com/thevishalchothe/spring-boot-examples/tree/82f97912e0981efcefd04a363c0bfb76ad3d7f18/spring-boot-actuator)
 - **spring-boot-data-jpa** 🔗 [spring-boot-data-jpa example link](https://github.com/thevishalchothe/spring-boot-examples/tree/062431dbfb1f7368073dc087eff0699fccb0e43b/spring-boot-data-jpa)
-- **spring-boot-security-auth** 🔗 [spring-boot-security-auth example link](https://github.com/thevishalchothe/spring-boot-examples/tree/612a71c2a0566d95486db7d30498f29894e46b4a/spring-boot-security-auth)
+- **spring-boot-exception-handler** 🔗 [spring-boot-exception-handler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/0cb06976f628659209999418a3226c6c5a34699d/spring-boot-exception-handler)
 
 ---
 
 ## Technologies Used 💻🔧
 
-- Java (JDK 21): Core programming language used in all examples  
-- Spring Boot: Simplifies setup and auto-configuration  
-- Spring MVC: For building RESTful web applications  
-- Spring Data JPA: For database operations using JPA and ORM  
-- JDBC: Used in selected projects for direct DB interaction  
-- MySQL: Relational database for data persistence  
-- Maven: For dependency management and project builds
+- Java (JDK 21): Core programming language for the application logic
+- Spring Boot: Simplifies application setup with auto-configuration and embedded servers
+- Spring Data JPA: Simplifies database interaction using JPA and ORM
+- Spring MVC: Handles HTTP requests and builds RESTful web applications
+- JDBC: For direct database interaction where needed
+- MySQL: Relational database to persist application data
+- Maven: Dependency management and build automation tool
