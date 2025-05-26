@@ -1,8 +1,10 @@
-package com.killerexpertise.example.exception;
+package com.killerexpertise.exception.example.exception;
 
-import com.killerexpertise.example.responce.ApiResponse;
-import org.springframework.http.*;
-import org.springframework.web.bind.annotation.*;
+import com.killerexpertise.exception.example.responce.ApiResponse;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

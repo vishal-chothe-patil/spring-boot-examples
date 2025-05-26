@@ -1,4 +1,4 @@
-package com.killerexpertise.example.responce;
+package com.killerexpertise.exception.example.responce;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

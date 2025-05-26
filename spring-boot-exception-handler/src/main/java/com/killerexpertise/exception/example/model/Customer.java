@@ -1,7 +1,9 @@
-package com.killerexpertise.example.model;
+package com.killerexpertise.exception.example.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
@@ -18,7 +20,4 @@ public class Customer {
     private String mobile;
     private String address;
 
-    @Lob
-    @Column(name = "aadhar_card", columnDefinition = "MEDIUMBLOB")
-    private byte[] aadharCard;  // store file content as MEDIUMBLOB in DB
 }

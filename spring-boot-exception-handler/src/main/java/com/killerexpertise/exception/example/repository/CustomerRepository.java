@@ -1,6 +1,6 @@
-package com.killerexpertise.example.repository;
+package com.killerexpertise.exception.example.repository;
 
-import com.killerexpertise.example.model.Customer;
+import com.killerexpertise.exception.example.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
