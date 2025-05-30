@@ -1,57 +1,78 @@
 # Spring Boot REST API Example 🌐
 
-The `spring-boot-rest-api` project demonstrates how to build a basic RESTful API using Spring Boot, enabling simple user management operations through HTTP.
+This is a simple **Spring Boot REST API** example for managing users with basic CRUD operations using an in-memory data store (Java `List` in Service). It's ideal for to understand RESTful services, controller-service separation, and basic Spring Boot setup.
 
-## Key Features
-This project highlights the fundamentals of building a REST API:
+---
 
-- 📦 **REST API Setup**: Implements an endpoint for adding users via HTTP POST.
-- 🧑‍💻 **UserController**: Handles incoming API requests and manages in-memory data storage.
-- 🧾 **Model Class (`User`)**: A simple Java class with user properties.
-- 🧪 **Postman Testing**: Easily test the API using Postman or any REST client.
+## How to Use: REST API - Step-by-Step Summary 📌 
 
-## REST API
+### 1. Create Spring Boot Project
+- Use **Spring Initializr**
+- Add dependencies: `Spring Web`, `Lombok`
 
-`UserController`: A REST controller that accepts and processes user data.
+### 2. Define Packages
+- Create the following packages:
+  - `controller`
+  - `model`
+  - `service`
+  - `service.impl`
 
-### Endpoint
+### 3. Create Model – `User.java`
+- Define fields:
+  - `id`
+  - `name`
+  - `email`
+  - `mobile`
 
-- `POST /api/user/addUser`  
-  → Accepts a JSON payload representing a `User`, validates it, and returns an appropriate HTTP response.
+### 4. Create Service Layer
+- Create `UserService` interface with CRUD method signatures
+- Implement `UserServiceImpl` class using in-memory `List<User>` to store data
 
-### Response Handling
+### 5. Create Controller
+- Create `UserController` class with REST endpoints:
+  - `POST /addUser` – Add a new user
+  - `GET /getAllUser` – Get all users
+  - `GET /{id}` – Get user by ID
+  - `PUT /update/{id}` – Update user completely
+  - `PATCH /partialUpdate/{id}` – Partially update user
+  - `DELETE /{id}` – Delete user by ID
 
-- Uses `ResponseEntity` to return:
-  - ✅ `201 Created` for successful user addition
-  - ❌ `400 Bad Request` for invalid input
-- Stores user data in an in-memory `List<User>` to simulate a basic storage mechanism.
+### 6. Run the App
+- Start the app using the `main` method in your Spring Boot application class
+- Use **Postman** or browser to test the endpoints:
+  - Base URL: `http://localhost:8080/api/users`
 
-## Model Class
+---
 
-`User`: Represents the user entity with the following fields:
+## API Endpoints 🧾 
 
-```java
-id, name, email, mobile;
-```
-## Example API Request
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/users/addUser` | Add a new user |
+| GET    | `/api/users/getAllUser` | Retrieve all users |
+| GET    | `/api/users/{id}` | Get a single user by ID |
+| PUT    | `/api/users/update/{id}` | Update the entire user |
+| PATCH  | `/api/users/partialUpdate/{id}` | Update partial fields of a user |
+| DELETE | `/api/users/{id}` | Delete user by ID |
 
-To test using Postman:
+---
 
-`URL: http://localhost:8080/api/user/addUser`
+## Tech Stack ⚙️ 
+  -  Spring Boot (REST API)
+  -  Spring Web
+  -  Lombok
+  -  Java 17
+  -  No external database (in-memory List<User> for simplicity)
 
-Method: `POST`
+---
 
-Headers:
+## Sample User JSON 🧑‍💻 
 
-`Content-Type: application/json`
-
-Body : json
-
-```
+```json
 {
   "id": 1,
-  "name": "killerexpertise",
-  "email": "killerexpertise@gmail.com",
-  "mobile": "1234567890"
+  "name": "KillerExpertise",
+  "email": "killerexpertise@example.com",
+  "mobile": "9876543210"
 }
 ```
