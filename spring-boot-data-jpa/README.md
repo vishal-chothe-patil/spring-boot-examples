@@ -18,24 +18,36 @@ This is a complete Spring Boot application demonstrating **CRUD (Create, Read, U
 - Supports both JPQL and native queries when needed
 
 ---
-###  Project Structure 📂
-```
-src/
-├── controller/
-│   └── CustomerController.java
-├── service/
-│   ├── CustomerService.java
-│   └── impl/CustomerServiceImpl.java
-├── repository/
-│   └── CustomerRepository.java
-├── model/
-│   └── Customer.java
-├── exception/
-│   └── CustomerNotFoundException.java
-├── response/
-│   └── ApiResponse.java
-└── Application.java
-```
+### How to Use - Spring Data JPA Summary 📂
+
+1. **Add Dependencies**  
+   Include `spring-boot-starter-data-jpa` and your database driver (e.g., MySQL) in your `pom.xml` or `build.gradle`.
+
+2. **Configure Database Connection**  
+   Set up database URL, username, password, and JPA properties in `application.properties` or `application.yml`.
+
+3. **Create Entity Class**  
+   Define your entity (e.g., `Customer`) using `@Entity` annotation with appropriate fields and primary key (`@Id`).
+
+4. **Create Repository Interface**  
+   Extend `JpaRepository<Entity, ID>` to get CRUD methods and query capabilities without implementation.
+
+5. **Create Service Layer**  
+   Define a service interface and implement it to call repository methods. This adds business logic between controller and repository.
+
+6. **Create Controller Layer**  
+   Build REST controllers to expose CRUD endpoints. Use the service layer to perform database operations.
+
+7. **Run the Application**  
+   Start your Spring Boot app and test the API endpoints. Spring Data JPA handles all database interactions transparently.
+
+8. **File Upload Handling (If needed)**  
+   For file fields (like Aadhar card), accept `MultipartFile` in controllers, convert to `byte[]`, and save in entity.
+
+---
+
+> This flow allows to build robust CRUD applications with minimal boilerplate code, leveraging Spring Data JPA’s powerful abstractions.
+
 ---
 
 
