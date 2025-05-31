@@ -14,21 +14,22 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **spring-boot-runners** 🔗 [spring-boot-runners example link](https://github.com/thevishalchothe/spring-boot-examples/tree/2ea82f034332b6419ce2417ce0939a7a1c49b7b2/spring-boot-runners)
 - **spring-boot-filters** 🔗 [spring-boot-filters example link](https://github.com/thevishalchothe/spring-boot-examples/tree/923db60262cbd5707eaa482f6f0576909e30553d/spring-boot-filters)
 - **spring-boot-interceptor** 🔗 [spring-boot-interceptor example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45274202659863a45729f523d28928668a2318a6/spring-boot-interceptor)
-- **spring-boot-scheduler** 🔗 [spring-boot-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
 - **spring-boot-actuator** 🔗 [spring-boot-actuator example link](https://github.com/thevishalchothe/spring-boot-examples/tree/82f97912e0981efcefd04a363c0bfb76ad3d7f18/spring-boot-actuator)
+- **spring-boot-thymeleaf** 🔗 [spring-boot-thymeleaf example link](https://github.com/thevishalchothe/spring-boot-examples/tree/4df7683b618bca96b6f565f59462663c7dedec5d/spring-boot-thymeleaf)
 - **spring-boot-data-jpa** 🔗 [spring-boot-data-jpa example link](https://github.com/thevishalchothe/spring-boot-examples/tree/062431dbfb1f7368073dc087eff0699fccb0e43b/spring-boot-data-jpa)
 - **spring-boot-exception-handler** 🔗 [spring-boot-exception-handler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/0cb06976f628659209999418a3226c6c5a34699d/spring-boot-exception-handler)
-- **spring-boot-thymeleaf** 🔗 [spring-boot-thymeleaf example link](https://github.com/thevishalchothe/spring-boot-examples/tree/4df7683b618bca96b6f565f59462663c7dedec5d/spring-boot-thymeleaf)
+- **spring-boot-scheduler** 🔗 [spring-boot-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
+- **spring-boot-email-scheduler** 🔗 [spring-boot-email-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/cd9637e3b57a53fba8a1d547b77563f71756e799/spring-boot-email-scheduler)
 
 ---
 
 ## Technologies Used 💻🔧
 
-- Java (JDK 21): Core programming language for the application logic
-- Spring Boot: Simplifies application setup with auto-configuration and embedded servers
-- Spring Data JPA: Simplifies database interaction using JPA and ORM
-- Spring MVC: Handles HTTP requests and builds RESTful web applications
-- Thymeleaf: Server-side Java template engine for rendering HTML views
-- JDBC: For direct database interaction where needed
-- MySQL: Relational database to persist application data
+- Java (JDK 21): Core programming language for the application logic  
+- Spring Boot: Simplifies application setup with auto-configuration and embedded servers  
+- Spring Data JPA: Simplifies database interaction using JPA and ORM  
+- Spring MVC: Handles HTTP requests and builds RESTful web applications  
+- Thymeleaf: Server-side Java template engine for rendering HTML views  
+- JDBC: For direct database interaction where needed  
+- MySQL: Relational database to persist application data  
 - Maven: Dependency management and build automation tool
