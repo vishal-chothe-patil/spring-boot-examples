@@ -8,15 +8,18 @@ import com.killerexpertise.greeting.example.model.EmailLog;
 import com.killerexpertise.greeting.example.repository.CustomerRepository;
 import com.killerexpertise.greeting.example.repository.EmailLogRepository;
 import com.killerexpertise.greeting.example.service.EmailServiceI;
+import jakarta.mail.internet.MimeMessage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
-import jakarta.mail.internet.MimeMessage;
-
 @Service
 public class EmailServiceImpl implements EmailServiceI {
+
+    private static final Logger logger = LoggerFactory.getLogger(EmailServiceImpl.class);
 
     @Autowired
     private JavaMailSender mailSender;
@@ -36,8 +39,7 @@ public class EmailServiceImpl implements EmailServiceI {
                 sendEmail(customer.getEmail(), customer.getName());
             } catch (Exception e) {
                 logEmailActivity(customer.getEmail(), "FAILED");
-                System.err.println("Failed to send Good Morning email to: " + customer.getEmail());
-                e.printStackTrace();
+                logger.error("Failed to send Good Morning email to: {}", customer.getEmail(), e);
             }
         }
     }
@@ -75,7 +77,7 @@ public class EmailServiceImpl implements EmailServiceI {
 
         mailSender.send(message);
         logEmailActivity(to, "SENT");
-        System.out.println("Good Morning email sent to: " + to);
+        logger.info("Good Morning email sent to: {}", to);
     }
 
     private void logEmailActivity(String recipientEmail, String status) {
@@ -84,6 +86,6 @@ public class EmailServiceImpl implements EmailServiceI {
         log.setStatus(status);
         log.setTimestamp(LocalDateTime.now());
         emailLogRepository.save(log);
-        System.out.println("Email log: " + status + " to " + recipientEmail);
+        logger.info("Email log: {} to {}", status, recipientEmail);
     }
 }
