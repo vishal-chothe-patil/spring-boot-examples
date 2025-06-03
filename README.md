@@ -9,8 +9,8 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **hello-spring-boot** 🔗 [hello-spring-boot example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/hello-spring-boot)
 - **spring-boot-logging** 🔗 [spring-boot-logging example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/spring-boot-logging)
 - **spring-boot-rest-api** 🔗 [spring-boot-rest-api example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/spring-boot-rest-api)
+- **library-management-system** 🔗 [simple library-management example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/library-management-system)
 - **spring-boot-profile** 🔗 [spring-boot-profile example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/spring-boot-profile)
-- **library-management-system** 🔗 [library-management-system example link](https://github.com/thevishalchothe/spring-boot-examples/tree/b777790ed90667e9b3deb4ecde3162aa4694f9a1/library-management-system)
 - **spring-boot-runners** 🔗 [spring-boot-runners example link](https://github.com/thevishalchothe/spring-boot-examples/tree/2ea82f034332b6419ce2417ce0939a7a1c49b7b2/spring-boot-runners)
 - **spring-boot-filters** 🔗 [spring-boot-filters example link](https://github.com/thevishalchothe/spring-boot-examples/tree/923db60262cbd5707eaa482f6f0576909e30553d/spring-boot-filters)
 - **spring-boot-interceptor** 🔗 [spring-boot-interceptor example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45274202659863a45729f523d28928668a2318a6/spring-boot-interceptor)
@@ -20,6 +20,7 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **spring-boot-exception-handler** 🔗 [spring-boot-exception-handler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/0cb06976f628659209999418a3226c6c5a34699d/spring-boot-exception-handler)
 - **spring-boot-scheduler** 🔗 [spring-boot-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
 - **spring-boot-email-scheduler** 🔗 [spring-boot-email-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/cd9637e3b57a53fba8a1d547b77563f71756e799/spring-boot-email-scheduler)
+- **eureka-discovery-server** 🔗 [eureka-discovery-server example link](https://github.com/thevishalchothe/spring-boot-examples/tree/dc08b6342df070abcde954e6a3e84e479b459468/eureka-discovery-server)
 
 ---
 
@@ -28,8 +29,9 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - Java (JDK 21): Core programming language for the application logic  
 - Spring Boot: Simplifies application setup with auto-configuration and embedded servers  
 - Spring Data JPA: Simplifies database interaction using JPA and ORM  
-- Spring MVC: Handles HTTP requests and builds RESTful web applications  
-- Thymeleaf: Server-side Java template engine for rendering HTML views  
+- Spring MVC: Handles HTTP requests and builds RESTful web applications
+- Spring Cloud: Tools for building distributed and microservice-based systems  
+- Thymeleaf: Server-side Java template engine for rendering HTML views
 - JDBC: For direct database interaction where needed  
 - MySQL: Relational database to persist application data  
 - Maven: Dependency management and build automation tool
