@@ -1,4 +1,4 @@
-package com.expertise.swagger.example.spring_boot_with_swagger;
+package com.expertise.swagger.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
