@@ -85,3 +85,36 @@ After starting the application, open the following URL in your browser to access
   ```  
   http://localhost:8080/swagger-ui/index.html
   ```
+
+---
+
+## API Endpoints
+
+| Method | Endpoint                 | Description         |
+|--------|--------------------------|---------------------|
+| POST   | `/api/books/add`         | Add a new book      |
+| GET    | `/api/books/get/{id}`    | Get a book by ID    |
+| GET    | `/api/books/all`         | Get all books       |
+| DELETE | `/api/books/delete/{id}` | Delete a book by ID |
+
+
+---
+
+## Sample JSON for Adding a Book
+
+Use the following JSON structure to test the POST `/api/books/add` endpoint:
+
+  ```json
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch"
+  }
+  ```
+---
+
+## Project Summary 📝 
+
+This project demonstrates how to integrate **Swagger (OpenAPI)** into a basic **Spring Boot** RESTful API. It showcases a simple `BookController` with in-memory data storage using a `Map` and provides endpoints to add, fetch, list, and delete books.
+
+The Swagger UI is automatically generated using **SpringDoc OpenAPI** and offers an interactive way to explore and test the API. 
+  -   how to document and test APIs effectively using Swagger in a Spring Boot application.
