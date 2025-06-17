@@ -21,17 +21,18 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **spring-boot-scheduler** 🔗 [spring-boot-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/45154998d751f82c98f1d6cd85139e4cf8151b48/spring-boot-scheduler)
 - **spring-boot-email-scheduler** 🔗 [spring-boot-email-scheduler example link](https://github.com/thevishalchothe/spring-boot-examples/tree/cd9637e3b57a53fba8a1d547b77563f71756e799/spring-boot-email-scheduler)
 - **eureka-discovery-server** 🔗 [eureka-discovery-server example link](https://github.com/thevishalchothe/spring-boot-examples/tree/dc08b6342df070abcde954e6a3e84e479b459468/eureka-discovery-server)
+- **spring-boot-with-swagger** 🔗 [spring-boot-with-swagger example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/5c29ccbcc3791386912e2d569a9b5dbf2f01395f/spring-boot-with-swagger)
 
 ---
 
 ## Technologies Used 💻🔧
 
-- Java (JDK 21): Core programming language for the application logic  
-- Spring Boot: Simplifies application setup with auto-configuration and embedded servers  
-- Spring Data JPA: Simplifies database interaction using JPA and ORM  
-- Spring MVC: Handles HTTP requests and builds RESTful web applications
-- Spring Cloud: Tools for building distributed and microservice-based systems  
-- Thymeleaf: Server-side Java template engine for rendering HTML views
-- JDBC: For direct database interaction where needed  
-- MySQL: Relational database to persist application data  
-- Maven: Dependency management and build automation tool
+- **Java (JDK 21)**: Core programming language  
+- **Spring Boot**: Rapid backend development with minimal configuration  
+- **Spring Data JPA**: ORM for database operations  
+- **Spring MVC**: RESTful web services  
+- **Spring Cloud**: Microservices toolkit  
+- **Thymeleaf**: HTML template rendering  
+- **JDBC**: Direct database queries  
+- **MySQL**: Relational database  
+- **Maven**: Dependency and build management  
