@@ -1,4 +1,4 @@
-package com.expertise.book.testing.example;
+package com.expertise.bookstore.testing.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
