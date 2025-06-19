@@ -6,4 +6,5 @@ public interface BookServiceI {
 
     Book addBook(Book book);
 
+    Book getBookById(Long id);
 }
