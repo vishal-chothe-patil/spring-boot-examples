@@ -38,4 +38,15 @@ public class BookServiceImpl implements BookServiceI {
         bookRepository.deleteById(id);
     }
 
+    @Override
+    public Book updateBook(Long id, Book updatedBook) {
+        Book existingBook = bookRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Book not found with id: " + id));
+
+        existingBook.setTitle(updatedBook.getTitle());
+        existingBook.setAuthor(updatedBook.getAuthor());
+
+        return bookRepository.save(existingBook);
+    }
+
 }
