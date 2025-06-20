@@ -6,6 +6,8 @@ import com.expertise.bookstore.testing.example.service.BookServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class BookServiceImpl implements BookServiceI {
 
@@ -21,6 +23,11 @@ public class BookServiceImpl implements BookServiceI {
     public Book getBookById(Long id) {
         return bookRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Book not found"));
+    }
+
+    @Override
+    public List<Book> getAllBooks() {
+        return bookRepository.findAll();
     }
 
 }

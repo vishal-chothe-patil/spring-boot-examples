@@ -5,6 +5,8 @@ import com.expertise.bookstore.testing.example.service.BookServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/books")
 public class BookController {
@@ -22,4 +24,8 @@ public class BookController {
         return bookServiceI.getBookById(id);
     }
 
+    @GetMapping("/getAll")
+    public List<Book> getAllBooks() {
+        return bookServiceI.getAllBooks();
+    }
 }
