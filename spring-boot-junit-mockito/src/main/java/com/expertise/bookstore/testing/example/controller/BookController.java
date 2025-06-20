@@ -28,4 +28,10 @@ public class BookController {
     public List<Book> getAllBooks() {
         return bookServiceI.getAllBooks();
     }
+
+    @DeleteMapping("/delete/{id}")
+    public String deleteBook(@PathVariable Long id) {
+        bookServiceI.deleteBook(id);
+        return "Book with ID " + id + " deleted successfully.";
+    }
 }
