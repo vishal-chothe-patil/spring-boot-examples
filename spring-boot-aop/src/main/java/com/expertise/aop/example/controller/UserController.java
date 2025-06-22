@@ -25,4 +25,8 @@ public class UserController {
         return userServiceI.getAllUsers();
     }
 
+    @GetMapping("/{id}")
+    public Optional<User> getUserById(@PathVariable Long id) {
+        return userServiceI.getUserById(id);
+    }
 }
