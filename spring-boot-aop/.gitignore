@@ -19,6 +19,7 @@ target/
 mvnw
 mvnw.cmd
 .gitattributes
+LoggingAspect_Explanation.pdf
 *.iws
 *.iml
 *.ipr
