@@ -23,6 +23,7 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **eureka-discovery-server** 🔗 [eureka-discovery-server example link](https://github.com/thevishalchothe/spring-boot-examples/tree/dc08b6342df070abcde954e6a3e84e479b459468/eureka-discovery-server)
 - **spring-boot-with-swagger** 🔗 [spring-boot-with-swagger example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/5c29ccbcc3791386912e2d569a9b5dbf2f01395f/spring-boot-with-swagger)
 - **spring-boot-junit-mockito** 🔗 [spring-boot-junit-mockito example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/dc79c84c4780e52535f4e9691de3d7f1294685c9/spring-boot-junit-mockito)
+- **spring-boot-aop** 🔗 [spring-boot-aop logging-aspects example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/eb1d57996102fad72f1ab466b508091f02857576/spring-boot-aop)
 
 ---
 
