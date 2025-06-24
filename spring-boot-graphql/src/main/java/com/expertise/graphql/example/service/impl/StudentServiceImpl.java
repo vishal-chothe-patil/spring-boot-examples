@@ -1,14 +1,14 @@
 package com.expertise.graphql.example.service.impl;
 
 import com.expertise.graphql.example.repository.StudentRepository;
-import com.expertise.graphql.example.service.StudentServceI;
+import com.expertise.graphql.example.service.StudentServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StudentServiceImpl implements StudentServceI {
+public class StudentServiceImpl implements StudentServiceI {
 
     @Autowired
-    StudentRepository studentRepository;
+    private StudentRepository studentRepository;
 
 }
