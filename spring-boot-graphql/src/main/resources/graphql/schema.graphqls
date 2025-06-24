@@ -1,0 +1,22 @@
+type Student {
+    id: ID
+    name: String
+    email: String
+    course: String
+    age: Int
+    address: String
+}
+
+type Query {
+    _student: String  # placeholder to satisfy GraphQL spec
+}
+
+type Mutation {
+    createStudent(
+        name: String,
+        email: String,
+        course: String,
+        age: Int,
+        address: String
+    ): Student
+}
