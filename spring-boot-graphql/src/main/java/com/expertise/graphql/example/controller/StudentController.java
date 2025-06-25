@@ -9,6 +9,7 @@ import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class StudentController {
@@ -27,6 +28,11 @@ public class StudentController {
     @QueryMapping
     public List<Student> getAllStudents() {
         return studentServiceI.getAllStudents();
+    }
+
+    @QueryMapping
+    public Optional<Student> getStudentById(@Argument Long id) {
+        return studentServiceI.getStudentById(id);
     }
 
 }

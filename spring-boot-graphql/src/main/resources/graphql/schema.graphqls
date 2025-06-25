@@ -10,7 +10,7 @@ type Student {
 type Query {
     _student: String  # placeholder to satisfy GraphQL spec
     getAllStudents: [Student]
-
+    getStudentById(id: ID!): Student
 }
 
 type Mutation {
