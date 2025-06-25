@@ -31,4 +31,6 @@ type Mutation {
         address: String
     ): Student
 
+    deleteStudent(id: ID!): Boolean
+
 }

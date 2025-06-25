@@ -43,5 +43,9 @@ public class StudentController {
         return studentServiceI.updateStudent(id, new Student(id, name, email, course, age, address));
     }
 
+    @MutationMapping
+    public boolean deleteStudent(@Argument Long id) {
+        return studentServiceI.deleteStudent(id);
+    }
 
 }

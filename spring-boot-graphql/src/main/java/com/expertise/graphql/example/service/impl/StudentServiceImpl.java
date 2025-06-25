@@ -40,4 +40,11 @@ public class StudentServiceImpl implements StudentServiceI {
         existing.setAddress(student.getAddress());
         return studentRepository.save(existing);
     }
+
+    @Override
+    public boolean deleteStudent(Long id) {
+        if (!studentRepository.existsById(id)) return false;
+        studentRepository.deleteById(id);
+        return true;
+    }
 }
