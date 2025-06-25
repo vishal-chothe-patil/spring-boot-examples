@@ -5,7 +5,10 @@ import com.expertise.graphql.example.service.StudentServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
+import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
+
+import java.util.List;
 
 @Controller
 public class StudentController {
@@ -19,6 +22,11 @@ public class StudentController {
                                  @Argument String address) {
         Student student = new Student(null, name, email, course, age, address);
         return studentServiceI.createStudent(student);
+    }
+
+    @QueryMapping
+    public List<Student> getAllStudents() {
+        return studentServiceI.getAllStudents();
     }
 
 }
