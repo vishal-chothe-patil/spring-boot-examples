@@ -29,4 +29,15 @@ public class StudentServiceImpl implements StudentServiceI {
     public Optional<Student> getStudentById(Long id) {
         return studentRepository.findById(id);
     }
+
+    @Override
+    public Student updateStudent(Long id, Student student) {
+        Student existing = studentRepository.findById(id).orElseThrow();
+        existing.setName(student.getName());
+        existing.setEmail(student.getEmail());
+        existing.setCourse(student.getCourse());
+        existing.setAge(student.getAge());
+        existing.setAddress(student.getAddress());
+        return studentRepository.save(existing);
+    }
 }

@@ -21,4 +21,14 @@ type Mutation {
         age: Int,
         address: String
     ): Student
+
+    updateStudent(
+        id: ID!,
+        name: String,
+        email: String,
+        course: String,
+        age: Int,
+        address: String
+    ): Student
+
 }

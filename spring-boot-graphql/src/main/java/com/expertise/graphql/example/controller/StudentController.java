@@ -35,4 +35,13 @@ public class StudentController {
         return studentServiceI.getStudentById(id);
     }
 
+    @MutationMapping
+    public Student updateStudent(@Argument Long id,
+                                 @Argument String name, @Argument String email,
+                                 @Argument String course, @Argument Integer age,
+                                 @Argument String address) {
+        return studentServiceI.updateStudent(id, new Student(id, name, email, course, age, address));
+    }
+
+
 }
