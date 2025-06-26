@@ -24,6 +24,7 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **spring-boot-with-swagger** 🔗 [spring-boot-with-swagger example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/5c29ccbcc3791386912e2d569a9b5dbf2f01395f/spring-boot-with-swagger)
 - **spring-boot-junit-mockito** 🔗 [spring-boot-junit-mockito example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/dc79c84c4780e52535f4e9691de3d7f1294685c9/spring-boot-junit-mockito)
 - **spring-boot-aop** 🔗 [spring-boot-aop logging-aspects example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/eb1d57996102fad72f1ab466b508091f02857576/spring-boot-aop)
+- **spring-boot-graphql** 🔗 [spring-boot-graphql schema-first example link](https://github.com/vishal-chothe-patil/spring-boot-examples/tree/d6415d894f61f800c8deb99df7b1cf560586dfd5/spring-boot-graphql)
 
 ---
 
@@ -34,6 +35,7 @@ This `spring-boot-examples` repository demonstrates key Spring Boot concepts suc
 - **Spring Data JPA**: ORM for database operations  
 - **Spring MVC**: RESTful web services  
 - **Spring Cloud**: Microservices toolkit  
+- **Spring for GraphQL**: GraphQL APIs with schema-first development  
 - **Thymeleaf**: HTML template rendering  
 - **JDBC**: Direct database queries  
 - **MySQL**: Relational database  
