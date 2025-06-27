@@ -1,6 +1,6 @@
 # spring-boot-examples ⚙️📊
 
-This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as Auto-Configuration, Starter Dependencies (Web, DevTools), Embedded Servers (Tomcat), RESTful APIs, Profiles for environment-specific configs, Application Runners, Filter-based request handling, Logging with SLF4J, Actuator endpoints, and Spring Data JPA — all illustrated through practical projects like REST APIs, Logging, Profile management, Library systems, Servlet Filters, Interceptors, Task Scheduling, Exception Handling, Template Rendering with Thymeleaf, and Data Persistence.
+This `spring-boot-examples` repository demonstrates key Spring Boot concepts such as Auto-Configuration, Starter Dependencies (Web, DevTools), Embedded Servers (Tomcat), RESTful APIs, GraphQL, Profiles for environment-specific configs, Application Runners, Filter-based request handling, Logging with SLF4J, Actuator endpoints, and Spring Data JPA — all illustrated through practical projects like REST APIs, Logging, Profile management, Library systems, Servlet Filters, Interceptors, Task Scheduling, Exception Handling, Template Rendering with Thymeleaf, and Data Persistence.
 
 ---
 
